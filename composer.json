@@ -1,0 +1,17 @@
+{
+    "require": {
+        "edouardkombo/abstract-factory": "1.0.0.*@dev",
+        "edouardkombo/cache-util": "1.0.0.*@dev",
+        "edouardkombo/db-util": "1.0.0.*@dev",
+        "edouardkombo/http-strategy": "1.0.0.*@dev",
+        "edouardkombo/parser-strategy": "1.0.0.*@dev",
+        "edouardkombo/dependency-strategy": "1.0.0.*@dev",
+        "edouardkombo/event-strategy": "1.0.0.*@dev",        
+        "aura/router": "2.*@dev",
+        "phpmd/phpmd": "*",
+        "sebastian/phpcpd": "*",        
+        "phploc/phploc": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "minimum-stability": "dev"
+}

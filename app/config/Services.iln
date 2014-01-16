@@ -1,0 +1,32 @@
+#cache.driver: \TTI\CacheUtil\MemCache
+#    __construct:
+#        cache_hostname: xxxxx
+#        cache_port: xxxx
+
+cache.driver: \TTI\CacheUtil\Apc
+
+db.driver: \TTI\DbUtil\PdoDriver
+    __construct:
+        hostname: localhost
+        username: root
+        password:
+        database: test
+        port: 3603
+
+passport.driver: \TTI\HttpStrategy\PassportHandle
+    __construct:
+        handler:
+        path:
+        lifetime:
+
+request.driver: \TTI\HttpStrategy\RequestHandle
+
+request.helper.driver: \TTI\HttpStrategy\RequestHelper
+
+response.driver: \TTI\HttpStrategy\ResponseHandle
+
+router.driver: \Aura\Router\RouterFactory
+
+routes.map.driver: \app\config\RoutesMap
+
+teleportation.driver: \app\Teleportation
