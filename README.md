@@ -67,7 +67,16 @@ This way, all the application you are designing, prints easily in your subconsci
 You are playing with it, and it is easier for other developers to play with it too.
 
 
-4) Installing the Troll Inception
+5) ILN file extension
+---------------------
+
+ILN is the acronym of "Intuitive Language Notation" and, is a language used for object configuration.
+It is similar as YAML but less advanced.
+
+More explanation about the language principles soon.
+
+
+6) Installing the Troll Inception
 ---------------------------------
 
 When it comes to installing the Troll Inception, you have the following options.
@@ -97,7 +106,7 @@ The archive comes without vendors. To download them, first download composer (se
     php composer.phar install
 
 
-3) Browsing the Demo Application
+7) Browsing the Demo Application
 --------------------------------
 
 Congratulations! You're now ready to use The Troll Inception.
@@ -106,7 +115,7 @@ To see a real-live TTI page in action, access the following page:
 
     http://localhost
 
-4) Getting started with TTI
+8) Getting started with TTI
 -------------------------------
 
 This distribution is meant to be the starting point for your TTI
