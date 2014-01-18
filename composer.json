@@ -1,5 +1,6 @@
 {
     "require": {
+        "php": ">=5.3.0",
         "edouardkombo/abstract-factory": "1.0.0.*@dev",
         "edouardkombo/cache-util": "1.0.0.*@dev",
         "edouardkombo/db-util": "1.0.0.*@dev",
@@ -8,12 +9,13 @@
         "edouardkombo/dependency-strategy": "1.0.0.*@dev",
         "edouardkombo/event-strategy": "1.0.0.*@dev",        
         "aura/router": "2.*@dev",
+        "twig/twig": "1.15.*@dev",
         "phpmd/phpmd": "*",
         "sebastian/phpcpd": "*",        
         "phploc/phploc": "*",
         "squizlabs/php_codesniffer": "*"
     },
-    
+    "minimum-stability": "dev",    
     
     "name": "edouardkombo/the-troll-inception",
     "type": "library",
@@ -28,10 +30,5 @@
             "homepage": "http://www.breezeframework.com",
             "role": "Architect / Developer"
         }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    }, 
-    
-    "minimum-stability": "dev"
+    ]
 }
