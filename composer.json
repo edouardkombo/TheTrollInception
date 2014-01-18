@@ -1,4 +1,21 @@
 {
+    "name": "edouardkombo/the-troll-inception",
+    "type": "project",
+    "description": "The Troll Inception - Reality Objective Solution.",
+    "keywords": ["The Troll Inception","TTI","Reality Objective","CSS principle"],
+    "homepage": "https://github.com/edouardkombo/TheTrollInception",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },    
+    "authors": [
+        {
+            "name": "Edouard Kombo",
+            "email": "edouard.kombo@gmail.com",
+            "homepage": "http://www.breezeframework.com",
+            "role": "Architect / Developer"
+        }
+    ],    
     "require": {
         "php": ">=5.3.0",
         "edouardkombo/abstract-factory": "1.0.0.*@dev",
@@ -15,20 +32,5 @@
         "phploc/phploc": "*",
         "squizlabs/php_codesniffer": "*"
     },
-    "minimum-stability": "alpha",    
-    
-    "name": "edouardkombo/the-troll-inception",
-    "type": "library",
-    "description": "The Troll Inception - Reality Objective Solution.",
-    "keywords": ["The Troll Inception","TTI","Reality Objective","CSS principle"],
-    "homepage": "https://github.com/edouardkombo/TheTrollInception",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Edouard Kombo",
-            "email": "edouard.kombo@gmail.com",
-            "homepage": "http://www.breezeframework.com",
-            "role": "Architect / Developer"
-        }
-    ]
+    "minimum-stability": "stable"
 }
