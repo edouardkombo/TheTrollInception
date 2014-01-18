@@ -15,7 +15,7 @@
         "phploc/phploc": "*",
         "squizlabs/php_codesniffer": "*"
     },
-    "minimum-stability": "dev",    
+    "minimum-stability": "alpha",    
     
     "name": "edouardkombo/the-troll-inception",
     "type": "library",
