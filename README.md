@@ -59,10 +59,10 @@ More explanations here: http://le-code-vulgarise.blogspot.fr/2014/01/what-is-css
 -----------------------------------------------------------------------
 
 You play Roar, a troll cave, lost in the Breeze forest by his stupidity. To survive, he has to conquer and dominate this forest.
-Roar has several tools at its disposal, like a torch, a map, an eagle that will guide him to the best routes he can teleport to, via the magical portal, an ancestral passort...
-The goal is to reach all routes and respond, to affirm your territory.
-When Roar responds, he may beat the asian forest spirit, "Foucking Law".
-Foucking Law has one powerful wild beast, CodeCeption, which will test Roar as many possible times, like a ghost.
+Roar has several tools at its disposal, like a torch, a map, an eagle that will guide him to the best routes he can teleport to, via the magical portal, an ancestral passort, and an architect that help him build each territory it conquers.
+The goal is to reach all routes and respond to affirm your territory.
+When Roar responds, he may beat the asian spirit of the forest, "Foucking Law".
+Foucking Law has one powerful wild beast, CodeCeption, which will test Roar as many times possible, like a ghost.
 Everytime Roar responds successfully to Foucking Law, he wins 5 Chicken points.
 
 These points will help you estimate more precisely the technical debt a project will introduce.

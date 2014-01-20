@@ -19,6 +19,19 @@ passport.driver: \TTI\HttpStrategy\PassportHandle
         path:
         lifetime:
 
+twig.loader.filesystem: Twig_Loader_Filesystem
+    __construct:
+        path: ../
+
+twig.environment: Twig_Environment
+    __construct:
+        loader: %twig.loader.filesystem%
+        params: array|'cache' => '../app/cache'
+
+architect.driver: \app\Architect
+    __construct:
+        template: %twig.environment%
+
 request.driver: \TTI\HttpStrategy\RequestHandle
 
 request.helper.driver: \TTI\HttpStrategy\RequestHelper

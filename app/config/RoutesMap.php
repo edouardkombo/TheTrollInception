@@ -39,10 +39,24 @@ class RoutesMap
         $portal->add('hello', '/')
             ->addValues(
                 array(
-                    'controller' => 'src\DemoSpace\HelloUniverse\HelloHandle',
+                    'controller' => 'src\DemoSpace\HelloUniverse\Controllers\HelloHandle',
                     'action'     => 'hello',
                 )
             );
+        
+        $portal->add('demo', '/index{format}')
+            ->addTokens(
+                array(
+                    'format'     => '(\.[^/]+)?',
+                    'REQUEST_METHOD' => 'GET|POST',
+                )
+            )                
+            ->addValues(
+                array(
+                    'controller' => 'src\DemoSpace\HelloUniverse\Controllers\HelloHandle',
+                    'action'     => 'hello',
+                )
+            );        
 
         $portal->add('read', '/hello/{name}')
             ->addTokens(
@@ -53,7 +67,7 @@ class RoutesMap
             )            
             ->addValues(
                 array(
-                    'controller' => 'src\DemoSpace\HelloUniverse\HelloHandle',
+                    'controller' => 'src\DemoSpace\HelloUniverse\Controllers\HelloHandle',
                     'action'     => 'index',
                 )
             );

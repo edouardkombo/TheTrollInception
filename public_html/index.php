@@ -39,6 +39,9 @@ $portal = $roar->get('router.driver')->newInstance();
 //Then, he invokes all routes possible to teleport to
 $invoke = $roar->get('routes.map.driver')->map($portal);
 
+//We load the visual architect
+$architect = $roar->get('architect.driver');
+
 //Finally, Roar can teleport to the matching universe
-$teleport = $roar->get('teleportation.driver')->teleport($invoke, $eagle->uri(), $roar);
+$teleport = $roar->get('teleportation.driver')->teleport($invoke, $eagle->uri(), $roar, $architect);
 

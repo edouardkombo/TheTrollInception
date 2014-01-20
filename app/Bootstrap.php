@@ -106,8 +106,7 @@ if (!defined('TTI_ENVIRONMENT')) {
 switch (TTI_ENVIRONMENT) {
     case 'testing':
     case 'development':
-        error_reporting(-1);
-        ini_set('display_errors', 1);
+        \php_error\reportErrors();
         break;
     default:
         error_reporting(E_ALL & ~E_DEPRECATED);

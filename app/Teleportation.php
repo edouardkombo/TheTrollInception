@@ -38,13 +38,14 @@ class Teleportation extends HandleAbstraction
     /**
      * Teleport to matching Route
      * 
-     * @param object $portal Router object
-     * @param string $uri    Url params
-     * @param object $roar   Dependency injector and container
+     * @param object $portal   Router object
+     * @param string $uri      Url params
+     * @param object $roar     Dependency injector and container
+     * @param object $template Template engine
      * 
      * @return void
      */
-    public function teleport($portal, $uri, $roar)
+    public function teleport($portal, $uri, $roar, $template)
     {
         $path = parse_url($uri, PHP_URL_PATH);
 
@@ -55,7 +56,7 @@ class Teleportation extends HandleAbstraction
         $controller = $this->get('controller');
         $action = $this->get('action');
 
-        $page = new $controller($roar);
+        $page = new $controller($roar, $template);
 
         echo $page->$action($this->route->params);    
     }
@@ -87,7 +88,6 @@ class Teleportation extends HandleAbstraction
     {
         if (!$this->route) {
             echo "No application route was found for that URL path.";
-            exit();
         }
     }    
 }
