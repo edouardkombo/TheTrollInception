@@ -99,7 +99,7 @@ http://getcomposer.org/ or just run the following command:
 
 Then, use the `create-project` command to generate a new TTI application:
 
-    php composer.phar create-project edouardkombo/the-troll-inception path/to/install
+    php composer.phar create-project edouardkombo/the-troll-inception=dev-master path/to/install
 
 Composer will install TTI and all its dependencies under the `path/to/install` directory.
 
