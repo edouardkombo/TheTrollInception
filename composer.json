@@ -1,4 +1,22 @@
-{
+{  
+    "require": {
+        "php": ">=5.3.0",
+        "edouardkombo/interface-factory": "1.0.0.*@dev",        
+        "edouardkombo/abstract-factory": "1.0.0.*@dev",        
+        "edouardkombo/cache-util": "1.0.0.*@dev",
+        "edouardkombo/db-util": "1.0.0.*@dev",
+        "edouardkombo/http-strategy": "1.0.0.*@dev",
+        "edouardkombo/parser-strategy": "1.0.0.*@dev",
+        "edouardkombo/dependency-strategy": "1.0.0.*@dev",
+        "edouardkombo/event-strategy": "1.0.0.*@dev",        
+        "aura/router": "2.*@dev",
+        "twig/twig": "1.15.*@dev",
+        "phpmd/phpmd": "*",
+        "sebastian/phpcpd": "*",        
+        "phploc/phploc": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "minimum-stability": "stable",
     "name": "edouardkombo/the-troll-inception",
     "type": "project",
     "description": "The Troll Inception - Reality Objective Solution.",
@@ -15,21 +33,5 @@
             "homepage": "http://www.breezeframework.com",
             "role": "Architect / Developer"
         }
-    ],    
-    "require": {
-        "php": ">=5.3.0",
-        "edouardkombo/cache-util": "1.0.0.*@dev",
-        "edouardkombo/db-util": "1.0.0.*@dev",
-        "edouardkombo/http-strategy": "1.0.0.*@dev",
-        "edouardkombo/parser-strategy": "1.0.0.*@dev",
-        "edouardkombo/dependency-strategy": "1.0.0.*@dev",
-        "edouardkombo/event-strategy": "1.0.0.*@dev",        
-        "aura/router": "2.*@dev",
-        "twig/twig": "1.15.*@dev",
-        "phpmd/phpmd": "*",
-        "sebastian/phpcpd": "*",        
-        "phploc/phploc": "*",
-        "squizlabs/php_codesniffer": "*"
-    },
-    "minimum-stability": "stable"
+    ]     
 }
