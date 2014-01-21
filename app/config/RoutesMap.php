@@ -36,7 +36,7 @@ class RoutesMap
      */
     public function map($portal)
     {
-        $portal->add('hello', '/')
+        $portal->add('hello', '')
             ->addValues(
                 array(
                     'controller' => 'src\DemoSpace\HelloUniverse\Controllers\HelloHandle',
