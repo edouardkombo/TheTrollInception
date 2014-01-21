@@ -133,7 +133,7 @@ But you can already play with it and reads the api.
 
 To access to the api, simply go to:
 
-    http://localhost/sandbox 
+    http://www.breezeframework/tti/sandbox 
 
 What's inside?
 ---------------
@@ -167,6 +167,9 @@ The Troll Inception also includes some useful dependencies to help you code bett
 
   * Php-loc;
 
+  * Twig;
+
+  * Php_error
 
 
 All libraries and bundles included in the Troll Inception are
